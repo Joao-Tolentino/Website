@@ -178,4 +178,24 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
+  border-radius: 5px;
+}
+
+/*Accordion*/
+.accordion-item {
+  text-align: center;
+}
+
+.accordion-item button{
+  background-color: #0e1eff;
+  font-weight: bolder;
+  color:aquamarine;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.accordion-content {
+  border: 2.5px solid rgb(0, 42, 255);
+  border-radius: 5px;
+  font-weight: bold;
 }
